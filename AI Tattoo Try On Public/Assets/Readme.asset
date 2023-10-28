@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
+  m_Name: Readme
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: 37841daee17ac064c954cadd28ef326c, type: 3}
+  title: Peter Roka Portfolio project
+  sections:
+  - heading: Welcome to my Portfolio project
+    text: 'In this project, I aim to demonstration of my capebilities around Augmented
+      Reality, IOS, API''s, AI, Shaders and unity in general. '
+    linkText: 
+    url: 
+  - heading: About the project
+    text: This is a complete, finished and released IOS game. I used ARKit to realistially
+      display an AI generated tattoos on faces.
+    linkText: 
+    url: 
+  - heading: Text-To-Image API
+    text: I utilized stability.ai's Text-To-Image REST API to get a user prompt and
+      used stable diffusion to create a tattoo
+    linkText: 
+    url: 
+  - heading: Shader graphs
+    text: To position and resize, and enhance the AI images, I created a shader that,
+      transforms the UV's according to inputs and cuts out white segment.
+    linkText: 
+    url: 
+  - heading: stability.ai Documentation
+    text: 
+    linkText: text-to-image api
+    url: https://platform.stability.ai/docs/api-reference#tag/v1generation/operation/textToImage
+  - heading: Get In Toutch - Hire me
+    text: 
+    linkText: LinkedIn
+    url: https://www.linkedin.com/in/peter-roka-630800245/
+  - heading: 
+    text: ropifox@gmail.com
+    linkText: 
+    url: 
+  loadedLayout: 1
