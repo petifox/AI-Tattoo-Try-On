@@ -12,17 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
   m_Name: Readme
   m_EditorClassIdentifier: 
-  icon: {fileID: 2800000, guid: 37841daee17ac064c954cadd28ef326c, type: 3}
+  icon: {fileID: 2800000, guid: 92a99a80266c38e48a4080d7fa4d36d0, type: 3}
   title: Peter Roka Portfolio project
   sections:
   - heading: Welcome to my Portfolio project
-    text: 'In this project, I aim to demonstration of my capebilities around Augmented
+    text: 'In this project, I aim to demonstrate my capebilities around Augmented
       Reality, IOS, API''s, AI, Shaders and unity in general. '
     linkText: 
     url: 
   - heading: About the project
     text: This is a complete, finished and released IOS game. I used ARKit to realistially
-      display an AI generated tattoos on faces.
+      display AI generated tattoos on faces.
     linkText: 
     url: 
   - heading: Text-To-Image API
@@ -31,14 +31,10 @@ MonoBehaviour:
     linkText: 
     url: 
   - heading: Shader graphs
-    text: To position and resize, and enhance the AI images, I created a shader that,
-      transforms the UV's according to inputs and cuts out white segment.
+    text: To position, resize, and enhance the AI images, I created a shader that,
+      transforms the UV's according to inputs and cuts out white segments.
     linkText: 
     url: 
-  - heading: stability.ai Documentation
-    text: 
-    linkText: text-to-image api
-    url: https://platform.stability.ai/docs/api-reference#tag/v1generation/operation/textToImage
   - heading: Get In Toutch - Hire me
     text: 
     linkText: LinkedIn
@@ -47,4 +43,8 @@ MonoBehaviour:
     text: ropifox@gmail.com
     linkText: 
     url: 
+  - heading: stability.ai Documentation
+    text: 
+    linkText: text-to-image api
+    url: https://platform.stability.ai/docs/api-reference#tag/v1generation/operation/textToImage
   loadedLayout: 1
